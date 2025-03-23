@@ -1,0 +1,17 @@
+.self-justify-flexbox {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  justify-self: center;
+  align-self: center;
+}
+
+.nav-opened-page {
+  color: #c39946 !important;
+}
+
+.display-column {
+  display: flex;
+  flex-direction: column;
+}
+

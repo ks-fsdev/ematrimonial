@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Martel Sans", sans-serif;
+}
+/* fonts */
+.martel-sans-extralight {
+  font-family: "Martel Sans", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.martel-sans-light {
+  font-family: "Martel Sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.martel-sans-regular {
+  font-family: "Martel Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.martel-sans-semibold {
+  font-family: "Martel Sans", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.martel-sans-bold {
+  font-family: "Martel Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.martel-sans-extrabold {
+  font-family: "Martel Sans", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.martel-sans-black {
+  font-family: "Martel Sans", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* header */
+.logo {
+  width: 68px;
+}
+nav {
+  display: flex;
+  gap: 37px;
+  justify-content: center;
+  align-items: center;
+}
+.head1 {
+  display: flex;
+  gap: 27px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.head2 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.log-in {
+  display: flex;
+  align-items: center;
+  border: none;
+  background-color: white;
+}
+
+.log-in img {
+  height: 32px;
+}
+.try-for-free {
+  background-color: #2e844a;
+  border: 2px solid #2e844a;
+  border-radius: 10px;
+  padding: 9px 43px;
+  color: white;
+  font-size: 16px;
+}
+/* section 1 started */
+.sec1 {
+  background-color: rgb(20, 0, 117);
+  color: white;
+  justify-content: center;
+  display: flex;
+}
+
+.sec2 {
+  background-image: url(images/bg-1.webp);
+  border: 2px dashed skyblue;
+  display: flex;
+  padding: 100px;
+}
+.sec2 div {
+  border: 2px solid red;
+}
+.sec2 img {
+  height: 154px;
+  border-radius: 15px;
+  padding: 100px;
+}
+.start-free-trail {
+  background-color: rgb(1, 118, 211);
+  border: 2px solid rgb(1, 118, 211);
+  border-radius: 10px;
+  padding: 100px;
+  color: white;
+  font-size: 16px;
+}

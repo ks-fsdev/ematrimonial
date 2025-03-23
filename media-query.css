@@ -1,0 +1,189 @@
+@media (max-width: 786px) {
+  header {
+    height: 60px;
+  }
+
+  header img {
+    height: 11vh !important;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 100%;
+    background: linear-gradient(darkred, rgb(67, 27, 27));
+    border-radius: 0px 0px 15px 15px;
+    text-align: right;
+    padding: 20px;
+    gap: 9px;
+    transition: 0.3s all ease;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+  }
+  .nav-links.active {
+    display: flex;
+    max-height: 300px;
+  }
+
+  .nav-anchor {
+    margin-bottom: 5px;
+  }
+  .menu-toggle {
+    display: flex;
+  }
+  /* main */
+  .section2 {
+    padding: 3px;
+  }
+  marquee {
+    font-size: 12px;
+  }
+
+  .photodiv {
+    display: none;
+  }
+
+  .filterlabel {
+    font-size: 20px;
+  }
+  .section4 {
+    padding: 20px;
+  }
+
+  .text {
+    width: 100%;
+    padding: 10px;
+  }
+
+  #text1,
+  #text3 {
+    font-size: 12px;
+  }
+
+  #text2 {
+    font-size: 30px;
+  }
+
+  /* sec5 */
+  .s5head {
+    height: 42px;
+  }
+
+  .p1 {
+    font-size: 45px;
+    margin-top: -10px;
+  }
+  .hed1 {
+    font-size: 27px;
+  }
+
+  /* footer */
+  .footer-div {
+    flex-direction: column;
+    padding: 10px 15px;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-logo img {
+    display: none;
+  }
+  .quick1 {
+    font-size: 15px;
+  }
+
+  .quick1 h3,
+  .follow-us h3 {
+    font-size: 18px;
+    margin-bottom: 12px;
+    align-self: flex-start;
+  }
+
+  .finfo,
+  .contact {
+    font-size: 16px;
+  }
+
+  .footimg {
+    height: 15vh;
+    width: 15vh;
+  }
+}
+
+@media (max-width: 768px) {
+  .profilesdiv {
+    gap: 15px;
+    margin-top: 30px;
+  }
+
+  .profiles {
+    width: 90%;
+    max-width: 300px;
+  }
+
+  .prof {
+    height: 250px;
+  }
+
+  .mpsection2 {
+    padding: 20px; /* Reduce padding on small screens */
+  }
+
+  .s2d1 {
+    text-align: center;
+    width: 100%;
+  }
+
+  .s2d2 {
+    padding: 10px;
+  }
+
+  .sdcolor {
+    flex-direction: column; /* Stack boxes */
+    align-items: center;
+  }
+
+  .sdbox123 {
+    width: 100%; /* Make boxes full width on small screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .profiles {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .prof {
+    height: 200px;
+  }
+
+  .name {
+    font-size: 18px;
+  }
+
+  .age {
+    font-size: 16px;
+  }
+
+  .s5head {
+    height: 72px;
+  }
+
+  .phool {
+    height: 19vh;
+    width: 26vh;
+    padding: 19px;
+  }
+
+  .heds5 {
+    font-size: 16px;
+  }
+
+  .texts5 {
+    font-size: 13px;
+  }
+}
