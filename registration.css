@@ -119,87 +119,95 @@ ul {
 }
 
 /* main */
-.login-banner {
-  width: 100%;
-}
-
-/* Responsive Padding */
-.login-container {
-  padding: 80px 10%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+main {
   background-image: url(images/bg3.webp);
 }
 
-/* Login Section */
-.login-wrapper {
-  display: flex;
-  background-color: white;
-  max-width: 900px;
+.form-div {
+  padding: 15px;
+}
+
+.banner-r {
   width: 100%;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
-  overflow: hidden;
 }
 
-/* Left Side Content */
-.login-info {
-  padding: 40px;
-  flex: 1;
+.registration-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.login-title {
-  font-family: "Poppins", sans-serif;
-  text-align: center;
-  font-size: 26px;
-  font-weight: 600;
-}
-
-.login-description {
-  font-family: "Poppins", sans-serif;
+.registration-table {
+  background-color: white;
+  font-family: "Cagliostro", sans-serif;
   font-size: 18px;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 700px;
+}
+
+.form-header {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  padding: 20px;
   text-align: center;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
   margin-bottom: 15px;
 }
 
-.login-callout {
-  font-family: "Handlee", cursive;
-  color: darkred;
-  text-align: center;
-  font-weight: 900;
-  font-size: 20px;
-}
-
-/* Login Form */
-.login-form {
-  padding: 40px;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.login-label {
-  font-family: "Poppins", sans-serif;
-  font-size: 16px;
+.form-label {
   font-weight: 500;
-  margin-top: 10px;
-  display: block;
+  padding-bottom: 5px;
 }
 
-.login-input {
-  height: 35px;
+.form-input input {
+  height: 40px;
   width: 100%;
-  max-width: 300px;
-  border-radius: 5px;
+  max-width: 600px;
   border: 2px solid lightgrey;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   padding: 5px 10px;
-  font-family: "Poppins", sans-serif;
 }
 
-/* Responsive Design */
+input[type="radio"] {
+  width: 16px;
+  height: 16px;
+  margin: 0 5px 0 0;
+  /* appearance: none; */
+  border: 2px solid gray;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+
+input[type="radio"]:checked::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: #99ff00;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.form-submit {
+  text-align: center;
+  padding-top: 20px;
+}
 
 /* footer */
 

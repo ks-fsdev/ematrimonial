@@ -231,25 +231,6 @@ select {
   display: block;
 }
 
-button {
-  height: 40px;
-  width: 120px;
-  border-radius: 5px;
-  margin: 20px auto;
-  font-family: "Handlee", cursive;
-  background-image: linear-gradient(#4e6c47 50%, #5a7b55, #7b9377);
-  border: none;
-  color: white;
-  cursor: pointer;
-  transition: background 0.3s, transform 0.2s;
-  display: block;
-}
-
-button:hover {
-  background-image: linear-gradient(#5a7b55, #4e6c47);
-  transform: scale(1.05);
-}
-
 .photodiv img {
   width: 40vw;
   height: auto;

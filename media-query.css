@@ -14,7 +14,7 @@
     top: 60px;
     right: 0;
     width: 100%;
-    background: linear-gradient(darkred, rgb(67, 27, 27));
+    background: rgba(67, 27, 27, 0.9);
     border-radius: 0px 0px 15px 15px;
     text-align: right;
     padding: 20px;
@@ -128,8 +128,9 @@
     height: 250px;
   }
 
-  .mpsection2 {
-    padding: 20px; /* Reduce padding on small screens */
+  /* membership page */
+  .mpsection {
+    padding: 20px;
   }
 
   .s2d1 {
@@ -142,12 +143,79 @@
   }
 
   .sdcolor {
-    flex-direction: column; /* Stack boxes */
+    flex-direction: column;
     align-items: center;
   }
 
   .sdbox123 {
-    width: 100%; /* Make boxes full width on small screens */
+    width: 100%;
+  }
+
+  /* payment page */
+  .paysec {
+    padding: 30px 50px;
+    font-size: 20px;
+  }
+  .paydiv {
+    padding: 30px;
+  }
+
+  /* registration */
+
+  .registration-table {
+    padding: 30px;
+  }
+  .form-header {
+    font-size: 28px;
+  }
+  .form-input input {
+    height: 35px;
+    font-size: 14px;
+  }
+  button {
+    font-size: 16px;
+    padding: 10px 15px;
+  }
+
+  /* login */
+
+  .login-wrapper {
+    flex-direction: column;
+    text-align: start;
+    padding: 20px;
+  }
+
+  .login-container {
+    padding: 30px 5%;
+  }
+
+  .login-form {
+    padding: 20px;
+    width: 100%;
+  }
+
+  .form-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+  }
+
+  .login-label {
+    width: 100%;
+    text-align: left;
+    font-size: 14px;
+  }
+
+  .login-input {
+    width: 100%;
+    max-width: 100%;
+    height: 38px;
+  }
+
+  .login-button {
+    width: 100%;
+    font-size: 16px;
+    padding: 12px;
   }
 }
 
@@ -185,5 +253,34 @@
 
   .texts5 {
     font-size: 13px;
+  }
+
+  /* payment page */
+  .paysec {
+    padding: 20px;
+    font-size: 18px;
+  }
+  .paydiv {
+    padding: 20px;
+  }
+
+  /* registration */
+  .registration-table {
+    padding: 30px;
+  }
+  .form-header {
+    font-size: 28px;
+  }
+  .form-input input {
+    height: 35px;
+    font-size: 14px;
+  }
+  input[type="radio"] {
+    width: 14px;
+    height: 14px;
+  }
+  button {
+    font-size: 16px;
+    padding: 10px 15px;
   }
 }

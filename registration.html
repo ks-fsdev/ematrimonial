@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="registration.css" />
+    <link rel="stylesheet" href="utility-classes.css" />
+    <link rel="stylesheet" href="media-query.css" />
+    <title>E-MATRIMONIAL | NOT JUST A MATCH</title>
+    <link rel="icon" type="image/icon" href="images\icon.png" />
+
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cagliostro&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Handlee&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <!---HEADER--->
+    <header>
+      <section>
+        <img src="images\e mantri new logo.webp" alt="site logo" class="logo" />
+      </section>
+      <nav class="navbar">
+        <ul class="nav-links">
+          <li>
+            <a href="index.html" class="nav-anchor">Home</a>
+          </li>
+          <li>
+            <a href="membership.html" class="nav-anchor">Membership</a>
+          </li>
+          <li>
+            <a href="payment.html" class="nav-anchor">Payment</a>
+          </li>
+          <li>
+            <a href="registration.html" class="nav-anchor nav-opened-page"
+              >Registration</a
+            >
+          </li>
+          <li><a href="login.html" class="nav-anchor">Login</a></li>
+        </ul>
+        <div class="menu-toggle" onclick="toggleMenu()">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- main -->
+    <main>
+      <section class="sectionR1">
+        <img class="banner-r" src="images/banner-link.webp" />
+      </section>
+
+      <div class="form-div">
+        <form class="registration-form">
+          <table class="registration-table">
+            <tr>
+              <td class="form-header" colspan="2">
+                <center>Registration</center>
+              </td>
+            </tr>
+            <tr class="form-row">
+              <td class="form-label"><label for="email">Email</label></td>
+              <td class="form-input">
+                <input type="email" id="email" name="email" required />
+              </td>
+            </tr>
+            <tr class="form-row">
+              <td class="form-label"><label for="password">Password</label></td>
+              <td class="form-input">
+                <input
+                  type="password"
+                  id="password"
+                  name="password"
+                  placeholder="Password*"
+                  required
+                />
+              </td>
+            </tr>
+            <tr class="form-row">
+              <td class="form-label">
+                <label for="confirm-password">Confirm Password</label>
+              </td>
+              <td class="form-input">
+                <input
+                  type="password"
+                  id="confirm-password"
+                  name="confirm-password"
+                  required
+                />
+              </td>
+            </tr>
+            <tr class="form-row">
+              <td class="form-label">
+                <label for="name">Name of Bride/Groom</label>
+              </td>
+              <td class="form-input">
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Name of Bride/Groom"
+                  required
+                />
+              </td>
+            </tr>
+            <tr class="form-row">
+              <td class="form-label">Gender</td>
+              <td class="form-input">
+                <input
+                  type="radio"
+                  id="male"
+                  name="gender"
+                  value="male"
+                  required
+                />
+                <label for="male">Male</label>
+                <input
+                  type="radio"
+                  id="female"
+                  name="gender"
+                  value="female"
+                  required
+                />
+                <label for="female">Female</label>
+              </td>
+            </tr>
+            <tr class="form-row">
+              <td class="form-label"><label for="dob">Date of Birth</label></td>
+              <td class="form-input">
+                <input type="date" id="dob" name="dob" required />
+              </td>
+            </tr>
+            <tr class="form-row">
+              <td class="form-label"><label for="phone">Mobile No.</label></td>
+              <td class="form-input">
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  placeholder="+91 XXXXX XXXXX"
+                  required
+                />
+              </td>
+            </tr>
+            <tr class="form-row">
+              <td class="form-label"><label for="country">Country</label></td>
+              <td class="form-input">
+                <input type="text" id="country" name="country" required />
+              </td>
+            </tr>
+            <tr class="form-row">
+              <td class="form-label"><label for="state">State</label></td>
+              <td class="form-input">
+                <input type="text" id="state" name="state" required />
+              </td>
+            </tr>
+            <tr class="form-row">
+              <td class="form-label"><label for="city">City</label></td>
+              <td class="form-input">
+                <input type="text" id="city" name="city" required />
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2" class="form-submit">
+                <button type="submit"><strong>Submit</strong></button>
+              </td>
+            </tr>
+          </table>
+        </form>
+      </div>
+    </main>
+
+    <!-- footer -->
+    <footer>
+      <div class="overlay">
+        <div class="footer-div">
+          <div class="footer-logo">
+            <img src="images\e mantri new logo.webp" alt="logo" />
+            <h4>Ematrimonial.in</h4>
+            <p>not just a match</p>
+          </div>
+
+          <div class="quick1">
+            <h3>Quick Links:</h3>
+            <ul>
+              <li class="display-column">
+                <img class="contact" src="images\phone.svg" alt="phone" />
+                <span class="finfo">+91 00000 00000</span>
+              </li>
+              <li class="display-column">
+                <img class="contact" src="images\mail.svg" alt="mail" />
+                <span class="finfo">email@gmail.com</span>
+              </li>
+              <li class="display-column">
+                <img class="contact" class="fpin" src="images\map pin.svg" />
+                <span class="finfo">Kanpur</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="follow-us">
+            <h3>Follow Us:</h3>
+            <div class="foluslogo">
+              <div>
+                <img class="folicon" src="images/icons8-facebook.svg" />
+                <img class="folicon" src="images/insta.svg" />
+              </div>
+              <div>
+                <img class="folicon" src="images/watsapp.svg" />
+                <img class="folicon" src="images/yt.svg" />
+              </div>
+            </div>
+          </div>
+
+          <div class="footimg"></div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

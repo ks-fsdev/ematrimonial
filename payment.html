@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="login.css" />
+    <link rel="stylesheet" href="payment.css" />
     <link rel="stylesheet" href="utility-classes.css" />
     <link rel="stylesheet" href="media-query.css" />
     <title>E-MATRIMONIAL | NOT JUST A MATCH</title>
@@ -44,14 +44,18 @@
           <li>
             <a href="index.html" class="nav-anchor">Home</a>
           </li>
-          <li><a href="membership.html" class="nav-anchor">Membership</a></li>
-          <li><a href="payment.html" class="nav-anchor">Payment</a></li>
+          <li>
+            <a href="membership.html" class="nav-anchor">Membership</a>
+          </li>
+          <li>
+            <a href="payment.html" class="nav-anchor nav-opened-page"
+              >Payment</a
+            >
+          </li>
           <li>
             <a href="registration.html" class="nav-anchor">Registration</a>
           </li>
-          <li>
-            <a href="login.html" class="nav-anchor nav-opened-page">Login</a>
-          </li>
+          <li><a href="login.html" class="nav-anchor">Login</a></li>
         </ul>
         <div class="menu-toggle" onclick="toggleMenu()">
           <div></div>
@@ -63,69 +67,23 @@
 
     <!-- main -->
     <main>
-      <main>
-        <!-- BANNER -->
-        <section>
-          <img
-            class="login-banner"
-            src="images/banner-link3.webp"
-            alt="Login Banner"
-          />
-        </section>
+      <section>
+        <img class="payban" src="images/banner-link4.webp" />
+      </section>
 
-        <!-- LOGIN FORM -->
-        <section class="login-container">
-          <div class="login-wrapper">
-            <div class="login-info">
-              <h1 class="login-title">Ematrimonial.in</h1>
-              <p class="login-description">
-                Please login to contact and message members.<br /><br />
-                Or Register if you are not a member. Ematrimonial.in is
-                completely Free!!
-              </p>
-              <p class="login-callout">
-                Hurry Up! Get Registered Now To Find Your Perfect Soulmate.
-              </p>
-            </div>
-
-            <form class="login-form">
-              <h1 class="login-title">Member Login</h1>
-
-              <label class="login-label" for="email">Email:</label>
-              <input
-                class="login-input"
-                type="email"
-                id="email"
-                name="Login-Email"
-                required
-              />
-
-              <label class="login-label" for="phone">Phone:</label>
-              <input
-                class="login-input"
-                type="tel"
-                id="phone"
-                name="Login-Phone"
-                required
-              />
-
-              <label class="login-label" for="password">Password:</label>
-              <input
-                class="login-input"
-                type="password"
-                id="password"
-                name="Login-Password"
-                required
-              />
-
-              <button class="login-button"><strong>Login</strong></button>
-            </form>
-          </div>
-        </section>
-      </main>
+      <section class="paysec">
+        <div class="paydiv">
+          <p id="pay-p1">
+            Any incovenience is deeply regretted. Please feel free to contact
+            us. <br />Call us at <strong>+91 00000 00000</strong><br />Write to
+            us at <strong>email@mail.com</strong>
+          </p>
+        </div>
+      </section>
     </main>
 
     <!-- footer -->
+
     <footer>
       <div class="overlay">
         <div class="footer-div">

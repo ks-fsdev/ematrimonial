@@ -134,7 +134,7 @@ ul {
   padding: 10px;
 }
 
-.mpsection2 {
+.mpsection {
   font-family: Handlee, sans-serif;
   font-size: clamp(16px, 2vw, 20px);
   padding: clamp(20px, 5vw, 50px) clamp(30px, 10vw, 150px);
@@ -163,7 +163,7 @@ ul {
 .s2d2 {
   box-shadow: 3px 1px 5px rgba(0, 0, 0, 0.2);
   padding: 15px;
-  background-color: lightgrey;
+  background-color: #f1f2c2;
   border-radius: 0px 0px 10px 10px;
 }
 
@@ -186,8 +186,8 @@ ul {
 
 .sdbox123 {
   padding: 10px 20px;
-  background-color: white;
-  border: 2px solid #072f3b;
+  background-color: #52a63d;
+  border: 2px solid #4c9c61;
   border-radius: 8px;
   font-weight: bold;
   text-align: center;
