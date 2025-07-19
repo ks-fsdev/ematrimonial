@@ -90,7 +90,7 @@
 <ul>
   <li>
     <strong>Landing Page</strong><br />
-    <video src="ss/landing-page.mp4" controls width="500"></video>
+    <img src="ss/landing-page.gif">
   </li>
   <li>
     <strong>All Pages Preview</strong><br />
