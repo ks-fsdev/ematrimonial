@@ -89,16 +89,16 @@
 
 <ul>
   <li>
-    <strong>Landing Page</strong><br />
+    <strong>Landing Page</strong><br /><br />
     <img src="ss/landing-page.gif">
   </li>
   <li>
-    <strong>All Pages Preview</strong><br />
-    <video src="ss/pages.mp4" controls width="500"></video>
+    <strong>All Pages Preview</strong><br /><br />
+    <img src="ss/pages.gif">
   </li>
   <li>
-    <strong>Responsive Design</strong><br />
-    <video src="ss/responsive-design.mp4" controls width="500"></video>
+    <strong>Responsive Design</strong><br /><br />
+    <img src="ss/responsive.gif">
   </li>
 </ul>
 
